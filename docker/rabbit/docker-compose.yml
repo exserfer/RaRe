@@ -1,0 +1,10 @@
+version: '3'
+services:
+    rabbit_example:
+        image: rabbitmq:management
+        hostname: rabbit_example
+        ports:
+            - "5677:5672"
+            - "15677:15672"
+        environment:
+            - RABBITMQ_ERLANG_COOKIE='mysecret'
