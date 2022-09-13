@@ -1,5 +1,5 @@
-# rare
-Rare: Universal module to work with RabbitMQ for multiple task repetitions with time delays between repetitions.
+# RaRe
+RaRe: Universal module to work with RabbitMQ for multiple task repetitions with time delays between repetitions.
 
 ## What does this package do?
 
